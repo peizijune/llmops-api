@@ -7,4 +7,5 @@
 """
 from .app_handler import AppHandler
 
+# 导出这个包的类
 __all__ = ['AppHandler']

@@ -12,6 +12,7 @@ class A:
     name: str = "llmops"
 
 
+# 类级别注入
 @inject
 class B:
     def __init__(self, a: A):
