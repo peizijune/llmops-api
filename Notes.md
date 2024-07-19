@@ -1,6 +1,9 @@
-### 1-5 依赖注入
+### 1-5 项目目录结构、依赖注入
 
-1 $ pip install injector <br>
+1 设置test目录 <br>
+> Settings | Project | Project Structure：标记为Tests <br>
+
+2 $ pip install injector <br>
 
 ### 1-6 依赖库安装
 
@@ -30,4 +33,4 @@
 >
 > $ pip install -r requirements.txt // 安装requirements.txt中列出的所有包 <br>
 
-### 1-7
+### 1-8
