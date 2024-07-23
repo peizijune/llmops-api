@@ -33,4 +33,12 @@
 >
 > $ pip install -r requirements.txt // 安装requirements.txt中列出的所有包 <br>
 
-### 1-8
+### 1-8 PostgreSQL (RDBMS) <br>
+
+> $ brew install postgresql@15 <br>
+>
+> $ open ~/.bash_profile <br>
+> export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH" <br>
+> export LDFLAGS="-L/opt/homebrew/opt/postgresql@15/lib" <br>
+> export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include" <br>
+> $ source ~/.bash_profile <br>
