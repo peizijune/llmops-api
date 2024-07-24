@@ -41,4 +41,7 @@
 > export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH" <br>
 > export LDFLAGS="-L/opt/homebrew/opt/postgresql@15/lib" <br>
 > export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include" <br>
+> export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@15/lib/pkgconfig" <br>
 > $ source ~/.bash_profile <br>
+> $ brew services start postgresql@15
+> $ brew services stop postgresql@15
